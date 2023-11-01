@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Jay's Cafe</title>
+    <link rel="icon" type="image/png" href="images/logo_navbar.png">
+    <meta name="description" content="提供綜合咖啡與健康有機食物的咖啡店">    
+    <meta name="viewport" content="width=device-width, initial-scale=1">	
+
+    <!-- CSS -->
+    <meta http-equiv="content-type" content="=text/html";  charset="utf-8">
+    <link href="css/style.css"  type="text/css" rel="stylesheet" charset="utf-8">
+
+    <!-- 下載Bootstrap套件-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <style type="text/css">
+      .background-img{
+        
+        margin:5px;
+      }
+    </style>
+  </head>
+
+  <body style="padding-top:50px;font-family: Georgia;">
+    <div class="container">
+      
+        <!-- 導覽列 -->
+        <nav class="navbar navbar-light bg-light navbar-expand-md fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/logo_navbar.png" alt="..." height="36">
+              Jay's Cafe
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#navbar1"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbar1">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item active"><a class="nav-link" href="about.html">ABOUT</a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="menu.html" data-bs-toggle="dropdown">MENU</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="menu.html">COFFEE</a>
+                    <a class="dropdown-item" href="menu.html#menu_bakery">BAKERY</a>
+                    <a class="dropdown-item" href="menu.html#menu_breakfast">BREAKFAST</a>
+                    <a class="dropdown-item" href="menu.html#menu_lunch">LUNCH</a>
+                    <a class="dropdown-item" href="menu.html#menu_dessert">DESSERT</a>
+                    <a class="dropdown-item" href="menu.html#menu_winebeer">WINE/BEER</a>
+                  </div>
+                </li>              
+                <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Insert">
+                <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form> 
+            </div>
+          </div>
+        </nav>
+        
+          <!-- 輪播 -->
+          <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+          <!-- 輪播指示 -->
+            <ol class="carousel-indicators">
+              <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+              <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+              <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+            </ol>		
+
+          <!-- 輪播內容 -->
+            <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/photo1.jpg" class="d-block w-100" alt="Cafe shop">
+                    <div class="carousel-caption d-none d-md-block">
+                      <!--<div class="background-img" style="margin-top:1px; max-width:450px;position:absoluteve;width:90%;">
+                        <img src="images/logo_black.png">
+                      </div>-->
+                      <h3>Jay's Café is the comfertable stop</h3>
+                      <p></p>            
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/photo2.jpg" class="d-block w-100" alt="Jay's Coffee 1">
+                    <div class="carousel-caption d-none d-md-block">
+                      <!--<div class="background-img" style="margin-top:1px; max-width:450px;position:absolutee;width:90%;">
+                        <img src="images/logo_black.png">
+                      </div>-->
+                      <h3>Jay's features La Colombe Coffee freshly brewed</h3>        
+                      <p></p>  
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/photo3.jpg" class="d-block w-100" alt="Jay's Coffee 2">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h3>Join us at Jay's to jumpstart your day!</h3>  
+                      <p></p>      
+                    </div>
+                  </div>
+              </div>
+            </div>		
+
+          <!-- 輪播控制 -->
+            <a class="carousel-control-prev" href="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
+
+        </div>	
+  </body>
+</html>

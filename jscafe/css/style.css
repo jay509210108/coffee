@@ -1,0 +1,29 @@
+
+
+/* ----------------------
+        共通部分
+------------------------- */
+
+
+/* 大背景圖像 */
+.my-big-bg {
+    /*背景占滿整個頁面*/
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.my-circle-img{
+    max-width: 350px;
+}
+
+.card-body a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+

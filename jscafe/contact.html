@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Jay's Cafe</title>
+    <link rel="icon" type="image/png" href="images/logo_navbar.png">
+    <meta name="description" content="提供綜合咖啡與健康有機食物的咖啡店">    
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+
+    <!-- CSS -->
+    <meta http-equiv="content-type" content="=text/html";  charset="utf-8">
+    <link href="css/style.css"  type="text/css" rel="stylesheet" charset="utf-8">
+
+    <!-- 下載Bootstrap套件-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+
+  <body style="padding-top:50px;font-family: Georgia;">
+    <div class="container">
+      <header>
+        <!-- 導覽列 -->
+          <!-- 導覽列 -->
+        <nav class="navbar navbar-light bg-light navbar-expand-md fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/logo_navbar.png" alt="..." height="36">
+              Jay's Cafe
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#navbar1"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbar1">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item active"><a class="nav-link" href="about.html">ABOUT</a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="menu.html" data-bs-toggle="dropdown">MENU</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="menu.html">COFFEE</a>
+                    <a class="dropdown-item" href="menu.html#menu_bakery">BAKERY</a>
+                    <a class="dropdown-item" href="menu.html#menu_breakfast">BREAKFAST</a>
+                    <a class="dropdown-item" href="menu.html#menu_lunch">LUNCH</a>
+                    <a class="dropdown-item" href="menu.html#menu_dessert">DESSERT</a>
+                    <a class="dropdown-item" href="menu.html#menu_winebeer">WINE/BEER</a>
+                  </div>
+                </li>              
+                <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Insert">
+                <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form> 
+            </div>
+          </div>
+        </nav>
+
+        <!-- Background image -->
+        <div
+          class="text-center bg-image w-100 my-big-bg"
+          style="
+            background-image: url('images/contact_header.jpg');
+            height: 80vh;            
+          "
+        >
+          <!-- <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);"> -->
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-white">
+                <h1 class="mb-3 display-1">CONTACT</h1>
+                <h1 class="mb-3">Love to Hear From You</h1>
+                <!-- <a class="btn btn-outline-light btn-lg" href="#!" role="button">
+                  Call to action
+                </a>-->
+              </div>
+            </div>
+          <!-- </div> -->
+        </div>
+        <!-- Background image -->
+      </header>
+
+      <!-- 主要內容  -->
+      <main class="my-3">
+
+        <!-- Contact us -->
+        <div class="p-4 col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
+            <h1 class="section-title">Contact us</h1>
+            <h4>We will get back to you as soon as possible.</h4>
+        </div>
+
+
+        <!-- Wrapper container -->
+        <div class="container py-4 p-4">
+
+          <!-- Bootstrap 5 starter form -->
+          <form id="contactForm">
+
+            <!-- Name input -->
+            <div class="mb-3">
+              <label class="form-label" for="name">Name</label>
+              <input class="form-control" id="name" type="text" placeholder="Name" />
+            </div>
+
+            <!-- Email address input -->
+            <div class="mb-3">
+              <label class="form-label" for="emailAddress">Email Address</label>
+              <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" />
+            </div>
+
+            <!-- Message input -->
+            <div class="mb-3">
+              <label class="form-label" for="message">Message</label>
+              <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"></textarea>
+            </div>
+
+            <!-- Form submit button -->
+            <div class="d-grid">
+              <button class="btn btn-info btn-lg" type="submit">Submit</button>
+            </div>
+
+          </form>
+
+        </div>
+
+        <hr>
+
+        <!-- Visit us -->
+        <div class="col-md-12 wow animated p-4" data-wow-delay=".2s">
+            <h1 class="section-title text-center"><spa class="bg-light p-1"> Visit us </span></h1>
+        </div>
+
+
+        <!-- Address/TEL 、LOGO 、OPEN HOURS -->
+        <div class="row  align-items-center justify-content-center p-4">
+
+          <!-- Address/TEL-->
+          <div class="col-12 col-md-4">
+              <h5 style="color: #3266a8">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16" style='color:#3266a8'>
+                  <circle cx="8" cy="8" r="8"/>
+                </svg>
+                Our Address：
+              </h5>
+              <p>Jay's Cafe Co.</p>
+              <p> 2305 Philadelphia Ave</p>
+              <p>Ocean City, MD 21842</p>
+              <h5 style="color: #3266a8">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16" style='color:#3266a8'>
+                  <circle cx="8" cy="8" r="8"/>
+                </svg>
+                Telephone number：
+              </h5>
+                (410) 289-3326            
+          </div>
+
+          <!-- LOGO -->
+          <div class="col-8 col-md-4">
+               <img src="images/logo_white.png" class="rounded mx-auto d-block w-100" alt="...">            
+          </div>
+
+          <!-- OPEN HOURS -->
+          <div class="col-12 col-md-4 p-4">
+            <h5 style="color: #3266a8">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16" style='color:#3266a8'>
+                <circle cx="8" cy="8" r="8"/>
+              </svg>
+                Hours
+              </h5>
+                Monday - Sunday:7:00 am - 9:00 pm
+          </div>
+
+        </div>
+      </main>		
+
+
+      
+
+
+
+
+      <!-- 頁尾 -->
+      <footer class="text-white p-4"  style="background-color: #21081a;">    
+        <div class="row align-items-center justify-content-center">
+
+          <div class="col-8 col-md-4 p-4">
+             <img src="images/logo_black.png" class="rounded mx-auto d-block w-100" alt="...">            
+          </div>
+
+          <div class="col-12 col-md-8 p-4">        
+            <h2>Jay's Cafe</h2>
+            <p>Hours：Monday - Sunday 。 7:00 am - 9:00 pm</p>
+            <p>© 2022 Copyright：<a class="text-reset fw-bold" href="https://mdbootstrap.com/">Jay's Cafe.com</a>  </p>
+          </div>
+
+        </div>
+      </footer>
+
+    </div>	
+  </body>
+</html>

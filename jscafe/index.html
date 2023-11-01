@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Jay's Cafe</title>
+    <link rel="icon" type="image/png" href="images/logo_navbar.png">
+    <meta name="description" content="提供綜合咖啡與健康有機食物的咖啡店">    
+    <meta name="viewport" content="width=device-width, initial-scale=1">	
+
+    <!-- CSS -->
+    <meta http-equiv="content-type" content="=text/html";  charset="utf-8">
+    <link href="css/style.css"  type="text/css" rel="stylesheet" charset="utf-8">
+
+    <!-- 下載Bootstrap套件-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+
+  <body style="padding-top:50px;font-family: Georgia;">
+    <div class="container">
+        <!-- 導覽列 -->
+        <nav class="navbar navbar-light bg-light navbar-expand-md fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/logo_navbar.png" alt="..." height="36">
+              Jay's Cafe
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#navbar1"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbar1">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item active"><a class="nav-link" href="about.html">ABOUT</a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="menu.html" data-bs-toggle="dropdown">MENU</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="menu.html">COFFEE</a>
+                    <a class="dropdown-item" href="menu.html#menu_bakery">BAKERY</a>
+                    <a class="dropdown-item" href="menu.html#menu_breakfast">BREAKFAST</a>
+                    <a class="dropdown-item" href="menu.html#menu_lunch">LUNCH</a>
+                    <a class="dropdown-item" href="menu.html#menu_dessert">DESSERT</a>
+                    <a class="dropdown-item" href="menu.html#menu_winebeer">WINE/BEER</a>
+                  </div>
+                </li>              
+                <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Insert">
+                <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form> 
+            </div>
+          </div>
+        </nav>
+
+
+  
+      <!-- 輪播 -->
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+	    <!-- 輪播指示 -->
+        <ol class="carousel-indicators">
+          <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+          <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+        </ol>		
+	    <!-- 輪播內容 -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/photo1.jpg" class="d-block w-100" alt="Cafe shop">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Jay's Café is the comfertable stop</h3>
+              <p></p>            
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/photo2.jpg" class="d-block w-100" alt="Jay's Coffee 1">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Jay's features La Colombe Coffee freshly brewed</h3>        
+              <p></p>  
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/photo3.jpg" class="d-block w-100" alt="Jay's Coffee 2">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Join us at Jay's to jumpstart your day!</h3>  
+              <p></p>      
+            </div>
+          </div>
+        </div>		
+
+	    <!-- 輪播控制 -->
+        <a class="carousel-control-prev" href="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+
+      <!-- 警報效果 (兩個) -->	  
+<!--       <div class="alert alert-success mt-3" role="alert">
+        <a href="#" class="alert-link"><strong>年終特惠！</strong></a>
+		雙十連假出國馬上報名一人現折3000元！
+      </div>
+      <div class="alert alert-info" role="alert">
+        <a href="#" class="alert-link"><strong>賞楓一起GO！</strong></a>
+		日本賞楓團享四人同行一人免費！
+      </div> -->
+      <p>
+
+      <!-- 主要內容 (三個卡片) -->
+      <main class="my-3">
+        <div class="row">
+          <!-- 第一個卡片 -->
+          <div class="col-md-4 my-1">
+            <div class="card h-100">
+              <img class="card-img-top m-4 w-100 d-block mx-auto my-circle-img" src="images/home_card_1.png">
+              <div class="card-body">
+                <h4 class="card-title"><a href="menu.html" class="text-info">CAFF</a></h4>
+                <p class="card-text">Jay's Café & Trading Co. is the perfect stop as you head to the beach. Whether you wish to enjoy your coffee in our comfortable booths, outside in our courtyard, or on the go, Jay's features La Colombe Coffee freshly brewed, Cold Brew on tap, and canned Draft Latte options. But Jay's is more than a coffee house. </p>
+              </div>
+            </div>
+          </div> 
+          <!-- 第二個卡片 -->
+          <div class="col-md-4 my-1">
+            <div class="card h-100">
+              <img class="card-img-top m-4 w-100 d-block mx-auto my-circle-img" src="images/home_card_2.png">
+              <div class="card-body">
+                <h5 class="card-title"><a href="menu.html#menu_bakery" class="text-info">BACKEY</a></h5>
+                <p class="card-text">Corner Bakery Catering blends the convenience you love with the flavors you crave.Corner Bakery Catering blends the convenience you love with the flavors you crave.Corner Bakery Catering blends the convenience you love with the flavors you crave.</p>
+              </div>
+            </div>
+          </div>  
+          <!-- 第三個卡片 -->
+          <div class="col-md-4 my-1">
+            <div class="card h-100">
+              <img class="card-img-top m-4 w-100 d-block mx-auto my-circle-img" src="images/home_card_3.png">
+              <div class="card-body">
+                <h5 class="card-title"><a href="menu.html#menu_breakfast" class="text-info">BREAKFAST</a></h5>
+                <p class="card-text">BBLT & EGG SANDWICH (840 CAL) scrambled eggs, bacon, tomato, lettuce, black pepper balsamic aioli, white toast ANAHEIM PANINI (590 CAL) scrambled eggs, bacon, tomato, green onion, avocado, cheddar, grilled sourdough BACON & CHEDDAR PANINI (620 CAL) scrambled eggs, bacon, cheddar, grilled sourdough</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>		
+
+      <!-- 頁尾 -->
+      <footer class="text-white p-4"  style="background-color: #21081a;">    
+        <div class="row align-items-center justify-content-center">
+
+          <div class="col-8 col-md-4 p-4 d-block mx-auto">
+             <img src="images/logo_black.png" class="rounded mx-auto d-block w-100" alt="...">            
+          </div>
+
+          <div class="col-12 col-md-8 p-4">        
+            <h2>Jay's Cafe</h2>
+            <p>Hours：Monday - Sunday 。 7:00 am - 9:00 pm</p>
+            <p>© 2022 Copyright：<a class="text-reset fw-bold" href="https://mdbootstrap.com/">Jay's Cafe.com</a>  </p>
+          </div>
+
+        </div>
+      </footer>
+
+    </div>	
+  </body>
+</html>
